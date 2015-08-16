@@ -2,16 +2,12 @@
 //  main.m
 //  VOKEmbeddedTemplateTools
 //
-//  Created by Isaac Greenspan on 08/16/2015.
-//  Copyright (c) 2015 Isaac Greenspan. All rights reserved.
+//  Created by Isaac Greenspan on 8/16/15.
+//  Copyright (c) 2015 Vokal. All rights reserved.
 //
 
-@import UIKit;
-#import "VOKAppDelegate.h"
+#import <Cocoa/Cocoa.h>
 
-int main(int argc, char * argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([VOKAppDelegate class]));
-    }
+int main(int argc, const char * argv[]) {
+    return NSApplicationMain(argc, argv);
 }

@@ -1,6 +1,0 @@
-framework module VOKEmbeddedTemplateTools {
-  umbrella header "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h"
-
-  export *
-  module * { export * }
-}

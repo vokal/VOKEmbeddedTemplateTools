@@ -1,14 +1,38 @@
 PODS:
-  - VOKEmbeddedTemplateTools (0.1.0)
+  - GRMustache (7.3.2):
+    - JRSwizzle (~> 1.0)
+  - JRSwizzle (1.0)
+  - VOKEmbeddedTemplateTools (0.1.0):
+    - VOKEmbeddedTemplateTools/NSData+VOKMachOEmbedded (= 0.1.0)
+    - VOKEmbeddedTemplateTools/VOKZZArchiveTemplateRepository (= 0.1.0)
+    - VOKEmbeddedTemplateTools/ZZArchive+VOKMachOEmbedded (= 0.1.0)
+  - VOKEmbeddedTemplateTools/NSData+VOKMachOEmbedded (0.1.0)
+  - VOKEmbeddedTemplateTools/VOKZZArchiveTemplateRepository (0.1.0):
+    - GRMustache (~> 7.3.0)
+    - zipzap (~> 8.0.3)
+  - VOKEmbeddedTemplateTools/ZZArchive+VOKMachOEmbedded (0.1.0):
+    - VOKEmbeddedTemplateTools/NSData+VOKMachOEmbedded
+    - zipzap (~> 8.0.3)
+  - zipzap (8.0.3):
+    - zipzap/c++ (= 8.0.3)
+    - zipzap/objc (= 8.0.3)
+    - zipzap/objc++ (= 8.0.3)
+  - zipzap/c++ (8.0.3)
+  - zipzap/objc (8.0.3)
+  - zipzap/objc++ (8.0.3)
 
 DEPENDENCIES:
   - VOKEmbeddedTemplateTools (from `../`)
+  - zipzap (= 8.0.3)
 
 EXTERNAL SOURCES:
   VOKEmbeddedTemplateTools:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VOKEmbeddedTemplateTools: f2dba627e4280a7b5b38438a4381c3ee07c228d5
+  GRMustache: ebe6104fd30a6d22c1f36af131e19e2dbf7cd292
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  VOKEmbeddedTemplateTools: 15762bce5ba09135fe044d0dbb5b6fe0cc10eef2
+  zipzap: 888667fa52eb1799a32fa3ef8e77001356e796e4
 
 COCOAPODS: 0.37.2

@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
 
-target 'VOKEmbeddedTemplateTools_Example', :exclusive => true do
+target 'VOKEmbeddedTemplateTools', :exclusive => true do
   pod "VOKEmbeddedTemplateTools", :path => "../"
+  pod 'zipzap', '8.0.3'  # 8.0.4 won't compile :( https://github.com/pixelglow/ZipZap/issues/105
 end
 
-target 'VOKEmbeddedTemplateTools_Tests', :exclusive => true do
+target 'VOKEmbeddedTemplateToolsTests', :exclusive => true do
   pod "VOKEmbeddedTemplateTools", :path => "../"
 
   
