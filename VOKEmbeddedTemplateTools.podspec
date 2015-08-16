@@ -1,40 +1,38 @@
-#
-# Be sure to run `pod lib lint VOKEmbeddedTemplateTools.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "VOKEmbeddedTemplateTools"
   s.version          = "0.1.0"
-  s.summary          = "A short description of VOKEmbeddedTemplateTools."
+  s.summary          = "Handle a zip file of mustache templates embedded into the Mach-O executable."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                            Includes:
+                            - a category on NSData for getting data embedded into the Mach-O executable (embedding done via "Other Linker Flags" `-sectcreate __TEXT __your_name "some_file_name"`)
+                            - a category on [ZipZap](https://github.com/pixelglow/zipzap)'s `ZZArchive` to load an archive from data embedded into the Mach-O executable
+                            - a [GRMustache](https://github.com/groue/GRMustache) `GRMustacheTemplateRepository` subclass that loads its templates from a `ZZArchive`
+
+                            ***NOTE:*** The Mach-O executable embedded data reading doesn't seem to compile when pods are set to use frameworks.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/VOKEmbeddedTemplateTools"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/vokal/VOKEmbeddedTemplateTools"
   s.license          = 'MIT'
   s.author           = { "Isaac Greenspan" => "isaac.greenspan@vokal.io" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/VOKEmbeddedTemplateTools.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/vokal/VOKEmbeddedTemplateTools.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform = :osx, '10.9'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'VOKEmbeddedTemplateTools' => ['Pod/Assets/*.png']
-  }
+  s.subspec 'NSData+VOKMachOEmbedded' do |ss|
+    ss.source_files = 'Pod/NSData+VOKMachOEmbedded.{h,m}'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'ZZArchive+VOKMachOEmbedded' do |ss|
+    ss.source_files = 'Pod/ZZArchive+VOKMachOEmbedded.{h,m}'
+    ss.dependency 'VOKEmbeddedTemplateTools/NSData+VOKMachOEmbedded'
+    ss.dependency 'zipzap', '~> 8.0.3'
+  end
+
+  s.subspec 'VOKZZArchiveTemplateRepository' do |ss|
+    ss.source_files = 'Pod/VOKZZArchiveTemplateRepository.{h,m}'
+    ss.dependency 'zipzap', '~> 8.0.3'
+    ss.dependency 'GRMustache', '~> 7.3.0'
+  end
 end
