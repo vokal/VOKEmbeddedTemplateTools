@@ -1,0 +1,25 @@
+{
+  "name": "VOKEmbeddedTemplateTools",
+  "version": "0.1.0",
+  "summary": "A short description of VOKEmbeddedTemplateTools.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/VOKEmbeddedTemplateTools",
+  "license": "MIT",
+  "authors": {
+    "Isaac Greenspan": "isaac.greenspan@vokal.io"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/VOKEmbeddedTemplateTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "VOKEmbeddedTemplateTools": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

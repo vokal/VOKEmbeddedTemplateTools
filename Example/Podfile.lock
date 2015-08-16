@@ -1,0 +1,14 @@
+PODS:
+  - VOKEmbeddedTemplateTools (0.1.0)
+
+DEPENDENCIES:
+  - VOKEmbeddedTemplateTools (from `../`)
+
+EXTERNAL SOURCES:
+  VOKEmbeddedTemplateTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VOKEmbeddedTemplateTools: f2dba627e4280a7b5b38438a4381c3ee07c228d5
+
+COCOAPODS: 0.37.2

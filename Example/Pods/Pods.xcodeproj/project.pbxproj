@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042479FB9A21EE02E3F05068 /* Pods-VOKEmbeddedTemplateTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B07D063B5FA1F4610A834DC4 /* Pods-VOKEmbeddedTemplateTools_Example-dummy.m */; };
+		046C691BBF776E5E36C184AA /* Pods-VOKEmbeddedTemplateTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1035382A77814B4ED9A0AF /* Pods-VOKEmbeddedTemplateTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23290332AC156ABDCCBEF939 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8539517F70F04444DD2CCBF3 /* ReplaceMe.m */; };
+		301256D46C6BC50FB4C1FB48 /* VOKEmbeddedTemplateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47881426177D7791857E26B8 /* VOKEmbeddedTemplateTools.bundle */; };
+		32FB0A40E6D315D91B647A4D /* Pods-VOKEmbeddedTemplateTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45852FB11D254CB725E000CE /* Pods-VOKEmbeddedTemplateTools_Tests-dummy.m */; };
+		572FB5E494031B8B66241EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B186E5F1A0BB3D983C9FB015 /* Foundation.framework */; };
+		5BE3BEE18116AA7145B639B9 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC212E792B106A9985FDC30F /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D379F0B01D86D504BD0FCA9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8539517F70F04444DD2CCBF3 /* ReplaceMe.m */; };
+		9FF0AFA81630D64EA41ABA6B /* VOKEmbeddedTemplateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 933E5F0723BA35774BBBE366 /* VOKEmbeddedTemplateTools.bundle */; };
+		AA15C8F06128B3819C7015A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B186E5F1A0BB3D983C9FB015 /* Foundation.framework */; };
+		B07B019E3DCF6CE4C345AC0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B186E5F1A0BB3D983C9FB015 /* Foundation.framework */; };
+		BD4C678FAFE07DBB882F13D7 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CFEFFD6AE88D8E96D05241 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-dummy.m */; };
+		BEFBD0EC22C00572C62B858E /* Pods-VOKEmbeddedTemplateTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A178D94ED89DF9373AE1146B /* Pods-VOKEmbeddedTemplateTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C409A8675B968CE6583B97AF /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED141BE3C57712036533C1 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-dummy.m */; };
+		C678B63BA6237B0670236583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B186E5F1A0BB3D983C9FB015 /* Foundation.framework */; };
+		DD902F3AD482612DFD716CD1 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87959E67C814CB1BA9ED349D /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30511F66F4C19E85166FC510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6374E5358964DA70841DAA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A5CD49BA23023C9D6DBB08;
+			remoteInfo = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+		};
+		B86D32E26B6914EBE4802F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6374E5358964DA70841DAA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A552CC753EA033D7DF63891;
+			remoteInfo = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools";
+		};
+		CCC92E055A5AA38BFD3F4E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6374E5358964DA70841DAA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F789BA8CAAF386A2860FA6E;
+			remoteInfo = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+		};
+		CFB2BCEF81D3EF3F3391E1D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6374E5358964DA70841DAA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F0B03095E33DBFD8396661F;
+			remoteInfo = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BED603E28A519757420A86 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.xcconfig"; sourceTree = "<group>"; };
+		0A592C9BD15E939156CB6D42 /* Pods-VOKEmbeddedTemplateTools_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKEmbeddedTemplateTools_Tests-environment.h"; sourceTree = "<group>"; };
+		0B4A5D1B7752BBB8784399ED /* VOKEmbeddedTemplateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VOKEmbeddedTemplateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F0749D26B4D4E1C013AF10 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-prefix.pch"; path = "../Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-prefix.pch"; sourceTree = "<group>"; };
+		17DE3972252CCBBA540B59C1 /* Pods_VOKEmbeddedTemplateTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VOKEmbeddedTemplateTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BCD2A7232AB9A336942842 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.xcconfig"; path = "../Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.xcconfig"; sourceTree = "<group>"; };
+		1BD167C64C77EA320C1917D0 /* Pods-VOKEmbeddedTemplateTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKEmbeddedTemplateTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E04601290E3F29CCB91707F /* Pods-VOKEmbeddedTemplateTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKEmbeddedTemplateTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		24D434E918F9194B73F9893E /* VOKEmbeddedTemplateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VOKEmbeddedTemplateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8E533F75EE71D44BC1D3D2 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-Private.xcconfig"; sourceTree = "<group>"; };
+		32464E3C1E441BF05080C48A /* Pods-VOKEmbeddedTemplateTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKEmbeddedTemplateTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		326E0ED47E84E8F6F01AA8CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Info.plist"; sourceTree = "<group>"; };
+		35B957BE38896F343D6934BB /* Pods-VOKEmbeddedTemplateTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOKEmbeddedTemplateTools_Example-resources.sh"; sourceTree = "<group>"; };
+		3662C8F51466FC38DE3E397A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45852FB11D254CB725E000CE /* Pods-VOKEmbeddedTemplateTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKEmbeddedTemplateTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		47881426177D7791857E26B8 /* VOKEmbeddedTemplateTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOKEmbeddedTemplateTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		544060C5AEF74983706FC38F /* Pods-VOKEmbeddedTemplateTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOKEmbeddedTemplateTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E1035382A77814B4ED9A0AF /* Pods-VOKEmbeddedTemplateTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKEmbeddedTemplateTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		71CFEFFD6AE88D8E96D05241 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-dummy.m"; path = "../Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-dummy.m"; sourceTree = "<group>"; };
+		7887771FF3597F0E356A3324 /* Pods-VOKEmbeddedTemplateTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOKEmbeddedTemplateTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7DF935D7FE2DB243F231C552 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig"; path = "../Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig"; sourceTree = "<group>"; };
+		7F3A864EDD2513F14E0A069A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D08651F64EF40C97225221 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8539517F70F04444DD2CCBF3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		87959E67C814CB1BA9ED349D /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h"; path = "../Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h"; sourceTree = "<group>"; };
+		8B5D4BCFF551C067D005249D /* Pods-VOKEmbeddedTemplateTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOKEmbeddedTemplateTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		8CED141BE3C57712036533C1 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-dummy.m"; sourceTree = "<group>"; };
+		933E5F0723BA35774BBBE366 /* VOKEmbeddedTemplateTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOKEmbeddedTemplateTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A178D94ED89DF9373AE1146B /* Pods-VOKEmbeddedTemplateTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKEmbeddedTemplateTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B07D063B5FA1F4610A834DC4 /* Pods-VOKEmbeddedTemplateTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOKEmbeddedTemplateTools_Example-dummy.m"; sourceTree = "<group>"; };
+		B186E5F1A0BB3D983C9FB015 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C23AB49A4092B82B32DB08DC /* Pods-VOKEmbeddedTemplateTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOKEmbeddedTemplateTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2EE4A455309547EE4C60F6E /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-prefix.pch"; sourceTree = "<group>"; };
+		D03DB9F1B3F838A0646C3D63 /* Pods-VOKEmbeddedTemplateTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKEmbeddedTemplateTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D38AEF8EFDA078193F172D8E /* Pods-VOKEmbeddedTemplateTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VOKEmbeddedTemplateTools_Example.modulemap"; sourceTree = "<group>"; };
+		D61553450DCA6AB2E2F5FD16 /* Pods-VOKEmbeddedTemplateTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKEmbeddedTemplateTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E76427AA58A8C8EBE46322A1 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.modulemap"; sourceTree = "<group>"; };
+		E995CF8465189C8C47D2CF3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC212E792B106A9985FDC30F /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-umbrella.h"; sourceTree = "<group>"; };
+		F0CC395180775FD7E7E31FCE /* Pods-VOKEmbeddedTemplateTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VOKEmbeddedTemplateTools_Tests.modulemap"; sourceTree = "<group>"; };
+		F2A2C356B0E7AA3995BDB5E6 /* Pods-VOKEmbeddedTemplateTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOKEmbeddedTemplateTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F7FED0588DA88EE060EBE715 /* Pods-VOKEmbeddedTemplateTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOKEmbeddedTemplateTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8D1BE212572AD41DD01D08C /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.modulemap"; path = "../Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.modulemap"; sourceTree = "<group>"; };
+		F95B50D97496445095FFC64C /* Pods_VOKEmbeddedTemplateTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VOKEmbeddedTemplateTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE58D0A7EFB126753BA141C4 /* Pods-VOKEmbeddedTemplateTools_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VOKEmbeddedTemplateTools_Example-environment.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2274695B16682844F0A47FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		552C08E88A0D4C17D319A4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572FB5E494031B8B66241EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D7DD8D92836433B6A868E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C678B63BA6237B0670236583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F81E41E8C53D9D14EB1C425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA15C8F06128B3819C7015A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57AFA7AA3959AF2BFC97F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4B78E9E2C547576B309927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07B019E3DCF6CE4C345AC0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7D4D540A9FDC880E952FA5 /* Pods-VOKEmbeddedTemplateTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E995CF8465189C8C47D2CF3F /* Info.plist */,
+				F0CC395180775FD7E7E31FCE /* Pods-VOKEmbeddedTemplateTools_Tests.modulemap */,
+				32464E3C1E441BF05080C48A /* Pods-VOKEmbeddedTemplateTools_Tests-acknowledgements.markdown */,
+				544060C5AEF74983706FC38F /* Pods-VOKEmbeddedTemplateTools_Tests-acknowledgements.plist */,
+				45852FB11D254CB725E000CE /* Pods-VOKEmbeddedTemplateTools_Tests-dummy.m */,
+				0A592C9BD15E939156CB6D42 /* Pods-VOKEmbeddedTemplateTools_Tests-environment.h */,
+				7887771FF3597F0E356A3324 /* Pods-VOKEmbeddedTemplateTools_Tests-frameworks.sh */,
+				8B5D4BCFF551C067D005249D /* Pods-VOKEmbeddedTemplateTools_Tests-resources.sh */,
+				A178D94ED89DF9373AE1146B /* Pods-VOKEmbeddedTemplateTools_Tests-umbrella.h */,
+				D03DB9F1B3F838A0646C3D63 /* Pods-VOKEmbeddedTemplateTools_Tests.debug.xcconfig */,
+				D61553450DCA6AB2E2F5FD16 /* Pods-VOKEmbeddedTemplateTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Tests";
+			path = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests";
+			sourceTree = "<group>";
+		};
+		1299B7566389AECF3F5CA016 = {
+			isa = PBXGroup;
+			children = (
+				3662C8F51466FC38DE3E397A /* Podfile */,
+				9E91767CE6FD3BA2906CD56E /* Development Pods */,
+				32995D9BDA4AB2EE057E0870 /* Frameworks */,
+				A610A832891EC25AB133BD6F /* Products */,
+				E0078AE505F03D2D11212C68 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		32995D9BDA4AB2EE057E0870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD02FF797A7A90E8B6121E3A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93459AA1B8C4092743DF1E16 /* VOKEmbeddedTemplateTools */ = {
+			isa = PBXGroup;
+			children = (
+				CE04966D676D6034B3229FDD /* Pod */,
+				B39FCBFB61ECD68D78DC3A7F /* Support Files */,
+			);
+			name = VOKEmbeddedTemplateTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E91767CE6FD3BA2906CD56E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93459AA1B8C4092743DF1E16 /* VOKEmbeddedTemplateTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A610A832891EC25AB133BD6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DE3972252CCBBA540B59C1 /* Pods_VOKEmbeddedTemplateTools_Example.framework */,
+				F95B50D97496445095FFC64C /* Pods_VOKEmbeddedTemplateTools_Tests.framework */,
+				933E5F0723BA35774BBBE366 /* VOKEmbeddedTemplateTools.bundle */,
+				47881426177D7791857E26B8 /* VOKEmbeddedTemplateTools.bundle */,
+				0B4A5D1B7752BBB8784399ED /* VOKEmbeddedTemplateTools.framework */,
+				24D434E918F9194B73F9893E /* VOKEmbeddedTemplateTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFA5B2A1D49F97B861992F7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8539517F70F04444DD2CCBF3 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B39FCBFB61ECD68D78DC3A7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A864EDD2513F14E0A069A /* Info.plist */,
+				326E0ED47E84E8F6F01AA8CD /* Info.plist */,
+				E76427AA58A8C8EBE46322A1 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.modulemap */,
+				05BED603E28A519757420A86 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.xcconfig */,
+				2D8E533F75EE71D44BC1D3D2 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-Private.xcconfig */,
+				8CED141BE3C57712036533C1 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-dummy.m */,
+				C2EE4A455309547EE4C60F6E /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-prefix.pch */,
+				EC212E792B106A9985FDC30F /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-umbrella.h */,
+				F8D1BE212572AD41DD01D08C /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.modulemap */,
+				19BCD2A7232AB9A336942842 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.xcconfig */,
+				7DF935D7FE2DB243F231C552 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig */,
+				71CFEFFD6AE88D8E96D05241 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-dummy.m */,
+				12F0749D26B4D4E1C013AF10 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-prefix.pch */,
+				87959E67C814CB1BA9ED349D /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools";
+			sourceTree = "<group>";
+		};
+		CE04966D676D6034B3229FDD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AFA5B2A1D49F97B861992F7A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D5E921085D0BF07162469221 /* Pods-VOKEmbeddedTemplateTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				81D08651F64EF40C97225221 /* Info.plist */,
+				D38AEF8EFDA078193F172D8E /* Pods-VOKEmbeddedTemplateTools_Example.modulemap */,
+				C23AB49A4092B82B32DB08DC /* Pods-VOKEmbeddedTemplateTools_Example-acknowledgements.markdown */,
+				1E04601290E3F29CCB91707F /* Pods-VOKEmbeddedTemplateTools_Example-acknowledgements.plist */,
+				B07D063B5FA1F4610A834DC4 /* Pods-VOKEmbeddedTemplateTools_Example-dummy.m */,
+				FE58D0A7EFB126753BA141C4 /* Pods-VOKEmbeddedTemplateTools_Example-environment.h */,
+				F2A2C356B0E7AA3995BDB5E6 /* Pods-VOKEmbeddedTemplateTools_Example-frameworks.sh */,
+				35B957BE38896F343D6934BB /* Pods-VOKEmbeddedTemplateTools_Example-resources.sh */,
+				5E1035382A77814B4ED9A0AF /* Pods-VOKEmbeddedTemplateTools_Example-umbrella.h */,
+				1BD167C64C77EA320C1917D0 /* Pods-VOKEmbeddedTemplateTools_Example.debug.xcconfig */,
+				F7FED0588DA88EE060EBE715 /* Pods-VOKEmbeddedTemplateTools_Example.release.xcconfig */,
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Example";
+			path = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example";
+			sourceTree = "<group>";
+		};
+		E0078AE505F03D2D11212C68 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5E921085D0BF07162469221 /* Pods-VOKEmbeddedTemplateTools_Example */,
+				0F7D4D540A9FDC880E952FA5 /* Pods-VOKEmbeddedTemplateTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD02FF797A7A90E8B6121E3A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B186E5F1A0BB3D983C9FB015 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A526B6BB6FC093CA2AEABE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE3BEE18116AA7145B639B9 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D8B355B43A9846D4E5175C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFBD0EC22C00572C62B858E /* Pods-VOKEmbeddedTemplateTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885BF597E491878FBFF4BEC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD902F3AD482612DFD716CD1 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0817F28EE8240439865047F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C691BBF776E5E36C184AA /* Pods-VOKEmbeddedTemplateTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18A5CD49BA23023C9D6DBB08 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522FDFE589DC5DED29793C2A /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools" */;
+			buildPhases = (
+				643B8B1CD64039A9C8B86DEA /* Sources */,
+				2274695B16682844F0A47FE3 /* Frameworks */,
+				BCEE2959A4ED534F5675B8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+			productName = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+			productReference = 47881426177D7791857E26B8 /* VOKEmbeddedTemplateTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1A552CC753EA033D7DF63891 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F971EDD4158E6998F38007 /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools" */;
+			buildPhases = (
+				B18972B14BE68C6D3B21750A /* Sources */,
+				9F81E41E8C53D9D14EB1C425 /* Frameworks */,
+				365DC1F28B896988C2C6425D /* Resources */,
+				885BF597E491878FBFF4BEC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				792AA1FEBC5E1EA68ADBDED7 /* PBXTargetDependency */,
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools";
+			productName = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools";
+			productReference = 0B4A5D1B7752BBB8784399ED /* VOKEmbeddedTemplateTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E5410943A50EE9B7082B62E /* Pods-VOKEmbeddedTemplateTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF608C63F2999357733B719C /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Tests" */;
+			buildPhases = (
+				C26E53DE13DB7D131D0DCCEA /* Sources */,
+				90D7DD8D92836433B6A868E9 /* Frameworks */,
+				65D8B355B43A9846D4E5175C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F015C213C4E1C2D533D6D69F /* PBXTargetDependency */,
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Tests";
+			productName = "Pods-VOKEmbeddedTemplateTools_Tests";
+			productReference = F95B50D97496445095FFC64C /* Pods_VOKEmbeddedTemplateTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F0B03095E33DBFD8396661F /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A323AD3995B1E60ABA7ABD /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools" */;
+			buildPhases = (
+				3B48839EE5795326360B12B2 /* Sources */,
+				552C08E88A0D4C17D319A4A5 /* Frameworks */,
+				15197E9C2D05040285F71CB5 /* Resources */,
+				5A526B6BB6FC093CA2AEABE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5226A402B66961A9E06E7A2B /* PBXTargetDependency */,
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools";
+			productName = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools";
+			productReference = 24D434E918F9194B73F9893E /* VOKEmbeddedTemplateTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F789BA8CAAF386A2860FA6E /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED43DEB685B660D8B1F072F0 /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools" */;
+			buildPhases = (
+				23D4FA4131047FCCA667039B /* Sources */,
+				E57AFA7AA3959AF2BFC97F74 /* Frameworks */,
+				D8B6B5ABD37CB5B501526A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+			productName = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+			productReference = 933E5F0723BA35774BBBE366 /* VOKEmbeddedTemplateTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A8CC352BCE1148F661DCE738 /* Pods-VOKEmbeddedTemplateTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E5FAA5CF991F76BE108A59 /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Example" */;
+			buildPhases = (
+				3EA79960206DDB6BAF8873D1 /* Sources */,
+				EE4B78E9E2C547576B309927 /* Frameworks */,
+				F0817F28EE8240439865047F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6560240908C49E76CDEC1EE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-VOKEmbeddedTemplateTools_Example";
+			productName = "Pods-VOKEmbeddedTemplateTools_Example";
+			productReference = 17DE3972252CCBBA540B59C1 /* Pods_VOKEmbeddedTemplateTools_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6374E5358964DA70841DAA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 55C1E785C87916CC8EC1F230 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1299B7566389AECF3F5CA016;
+			productRefGroup = A610A832891EC25AB133BD6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CC352BCE1148F661DCE738 /* Pods-VOKEmbeddedTemplateTools_Example */,
+				7F0B03095E33DBFD8396661F /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools */,
+				9F789BA8CAAF386A2860FA6E /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools */,
+				4E5410943A50EE9B7082B62E /* Pods-VOKEmbeddedTemplateTools_Tests */,
+				1A552CC753EA033D7DF63891 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools */,
+				18A5CD49BA23023C9D6DBB08 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15197E9C2D05040285F71CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF0AFA81630D64EA41ABA6B /* VOKEmbeddedTemplateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365DC1F28B896988C2C6425D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301256D46C6BC50FB4C1FB48 /* VOKEmbeddedTemplateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEE2959A4ED534F5675B8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B6B5ABD37CB5B501526A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D4FA4131047FCCA667039B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B48839EE5795326360B12B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C409A8675B968CE6583B97AF /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-dummy.m in Sources */,
+				23290332AC156ABDCCBEF939 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA79960206DDB6BAF8873D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042479FB9A21EE02E3F05068 /* Pods-VOKEmbeddedTemplateTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643B8B1CD64039A9C8B86DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18972B14BE68C6D3B21750A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4C678FAFE07DBB882F13D7 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-dummy.m in Sources */,
+				7D379F0B01D86D504BD0FCA9 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26E53DE13DB7D131D0DCCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB0A40E6D315D91B647A4D /* Pods-VOKEmbeddedTemplateTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5226A402B66961A9E06E7A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+			target = 9F789BA8CAAF386A2860FA6E /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools */;
+			targetProxy = CCC92E055A5AA38BFD3F4E16 /* PBXContainerItemProxy */;
+		};
+		6560240908C49E76CDEC1EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools";
+			target = 7F0B03095E33DBFD8396661F /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools */;
+			targetProxy = CFB2BCEF81D3EF3F3391E1D0 /* PBXContainerItemProxy */;
+		};
+		792AA1FEBC5E1EA68ADBDED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools";
+			target = 18A5CD49BA23023C9D6DBB08 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools */;
+			targetProxy = 30511F66F4C19E85166FC510 /* PBXContainerItemProxy */;
+		};
+		F015C213C4E1C2D533D6D69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools";
+			target = 1A552CC753EA033D7DF63891 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools */;
+			targetProxy = B86D32E26B6914EBE4802F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		078665F223B0E8F30DA07501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF935D7FE2DB243F231C552 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0847F65DF0D6CCDBCFABBD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		37DA8FE73459E177D1CFE761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF935D7FE2DB243F231C552 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-VOKEmbeddedTemplateTools_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3CAB7205EE6D6A53EE756894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF935D7FE2DB243F231C552 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCA6CCDD86B153C3D1EE80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD167C64C77EA320C1917D0 /* Pods-VOKEmbeddedTemplateTools_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example/Pods-VOKEmbeddedTemplateTools_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VOKEmbeddedTemplateTools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		498A37775FD171EF3210DB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8E533F75EE71D44BC1D3D2 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-VOKEmbeddedTemplateTools_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		62749C5854FD8E49F9DDA8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FED0588DA88EE060EBE715 /* Pods-VOKEmbeddedTemplateTools_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example/Pods-VOKEmbeddedTemplateTools_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VOKEmbeddedTemplateTools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64EDCAF58887292D2360178C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8E533F75EE71D44BC1D3D2 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89E64A5C2BBB95F70CF9DD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8E533F75EE71D44BC1D3D2 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-VOKEmbeddedTemplateTools_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8EB86E14A15DC7BDF0F9150C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF935D7FE2DB243F231C552 /* Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-VOKEmbeddedTemplateTools_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AB70B2BE62E17918508D792C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF75570A343A7319D1893C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61553450DCA6AB2E2F5FD16 /* Pods-VOKEmbeddedTemplateTools_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests/Pods-VOKEmbeddedTemplateTools_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VOKEmbeddedTemplateTools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F57B069B6C86997E3F44D883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03DB9F1B3F838A0646C3D63 /* Pods-VOKEmbeddedTemplateTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Tests/Pods-VOKEmbeddedTemplateTools_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VOKEmbeddedTemplateTools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA48ED975914A97591B5890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8E533F75EE71D44BC1D3D2 /* Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools/Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VOKEmbeddedTemplateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522FDFE589DC5DED29793C2A /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB86E14A15DC7BDF0F9150C /* Debug */,
+				37DA8FE73459E177D1CFE761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C1E785C87916CC8EC1F230 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0847F65DF0D6CCDBCFABBD68 /* Debug */,
+				AB70B2BE62E17918508D792C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A323AD3995B1E60ABA7ABD /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EDCAF58887292D2360178C /* Debug */,
+				FA48ED975914A97591B5890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F971EDD4158E6998F38007 /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Tests-VOKEmbeddedTemplateTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAB7205EE6D6A53EE756894 /* Debug */,
+				078665F223B0E8F30DA07501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E5FAA5CF991F76BE108A59 /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCA6CCDD86B153C3D1EE80B /* Debug */,
+				62749C5854FD8E49F9DDA8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF608C63F2999357733B719C /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57B069B6C86997E3F44D883 /* Debug */,
+				BF75570A343A7319D1893C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED43DEB685B660D8B1F072F0 /* Build configuration list for PBXNativeTarget "Pods-VOKEmbeddedTemplateTools_Example-VOKEmbeddedTemplateTools-VOKEmbeddedTemplateTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E64A5C2BBB95F70CF9DD23 /* Debug */,
+				498A37775FD171EF3210DB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6374E5358964DA70841DAA36 /* Project object */;
+}
