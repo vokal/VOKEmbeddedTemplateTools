@@ -9,32 +9,44 @@
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
+#import <GRMustache.h>
+#import <VOKZZArchiveTemplateRepository.h>
+#import <ZZArchive+VOKMachOEmbedded.h>
+
 @interface VOKEmbeddedTemplateToolsTests : XCTestCase
 
 @end
 
 @implementation VOKEmbeddedTemplateToolsTests
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testExample
+{
+    NSError *error;
+    ZZArchive *archive = [ZZArchive vok_archiveFromMachOSection:VOK_EMBEDDED_ZIP_SECTION
+                                                          error:&error];
+    XCTAssertNotNil(archive);
+    XCTAssertNil(error);
+    
+    VOKZZArchiveTemplateRepository *templateRepo = [VOKZZArchiveTemplateRepository templateRepositoryWithArchive:archive];
+    XCTAssertNotNil(templateRepo);
+    
+    GRMustacheTemplate *template = [templateRepo templateNamed:@"test" error:&error];
+    XCTAssertNotNil(template);
+    XCTAssertNil(error);
+    
+    NSString *result = [template renderObject:nil error:&error];
+    XCTAssertNotNil(result);
+    XCTAssertNil(error);
+    
+    NSString *expectedResult = [NSString stringWithContentsOfURL:[[NSBundle bundleForClass:[self class]]
+                                                                  URLForResource:@"test"
+                                                                  withExtension:@"mustache"]
+                                                        encoding:NSUTF8StringEncoding
+                                                           error:&error];
+    XCTAssertNotNil(expectedResult);
+    XCTAssertNil(error);
+    
+    XCTAssertEqualObjects(result, expectedResult);
 }
 
 @end
