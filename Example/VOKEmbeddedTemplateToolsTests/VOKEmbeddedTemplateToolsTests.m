@@ -22,7 +22,7 @@
 - (void)testExample
 {
     NSError *error;
-    ZZArchive *archive = [ZZArchive vok_archiveFromMachOSection:@"__test_zip"
+    ZZArchive *archive = [ZZArchive vok_archiveFromMachOSection:VOK_EMBEDDED_ZIP_SECTION
                                                           error:&error];
     XCTAssertNotNil(archive);
     XCTAssertNil(error);

@@ -415,6 +415,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VOK_EMBEDDED_ZIP_SECTION = __test_zip;
 			};
 			name = Debug;
 		};
@@ -450,6 +451,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				VOK_EMBEDDED_ZIP_SECTION = __test_zip;
 			};
 			name = Release;
 		};
@@ -465,7 +467,7 @@
 					"$(inherited)",
 					"-sectcreate",
 					__TEXT,
-					__test_zip,
+					"\"${VOK_EMBEDDED_ZIP_SECTION}\"",
 					"\"${TARGET_BUILD_DIR}/template.zip\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,7 +486,7 @@
 					"$(inherited)",
 					"-sectcreate",
 					__TEXT,
-					__test_zip,
+					"\"${VOK_EMBEDDED_ZIP_SECTION}\"",
 					"\"${TARGET_BUILD_DIR}/template.zip\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,8 +504,8 @@
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"VOK_EMBEDDED_ZIP_SECTION='@\"'\"${VOK_EMBEDDED_ZIP_SECTION}\"'\"'",
 				);
 				INFOPLIST_FILE = VOKEmbeddedTemplateToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -521,6 +523,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"VOK_EMBEDDED_ZIP_SECTION='@\"'\"${VOK_EMBEDDED_ZIP_SECTION}\"'\"'",
 				);
 				INFOPLIST_FILE = VOKEmbeddedTemplateToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
